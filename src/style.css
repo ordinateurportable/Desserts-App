@@ -79,7 +79,9 @@ main {
   margin-top: auto;
 }
 
-.product button:disabled {
+.product button:disabled, 
+.confirm-order:disabled {
+  cursor: default;
   opacity: 0.6;
 }
 .product button img {
